@@ -1,0 +1,30 @@
+{
+  "opcion": "A - factorial completo 3x3",
+  "semilla_matricula": 2087472,
+  "valor_r": 0.6643924309860177,
+  "fracciones": {
+    "bajo": 0.19931772929580532,
+    "medio": 0.4993177292958053,
+    "alto": 0.7993177292958054
+  },
+  "temperatura_minima": 0.1,
+  "temperatura_maxima": 120.0,
+  "niveles_temperatura": {
+    "bajo": 23.99819574256706,
+    "medio": 59.96819574256706,
+    "alto": 95.93819574256706
+  },
+  "tamanos": [
+    5,
+    10,
+    15
+  ],
+  "replicas": 10,
+  "pasos_enfriamiento": 3000,
+  "remuestreos_bootstrap": 10000,
+  "nivel_confianza": 0.95,
+  "alfa": 0.05,
+  "semilla_instancia_base": 10000,
+  "semilla_corrida_base": 20000,
+  "semilla_bootstrap_base": 30000
+}

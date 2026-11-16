@@ -1,0 +1,28 @@
+
+Tamaño n = 5
+Kruskal-Wallis: no aplica (las 30 corridas alcanzaron exactamente el mismo costo; no hay variación que comparar).
+Tukey HSD: no aplica (varianza cero en todos los niveles).
+
+Tamaño n = 10
+Kruskal-Wallis: H = 17.2946, p = 0.000175598 (significativo)
+Tukey HSD:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+====================================================
+group1 group2 meandiff p-adj   lower   upper  reject
+----------------------------------------------------
+  alto   bajo  -5.5402 0.0001 -8.1879 -2.8925   True
+  alto  medio   -2.573  0.058 -5.2206  0.0747  False
+  bajo  medio   2.9672 0.0257  0.3195  5.6149   True
+----------------------------------------------------
+
+Tamaño n = 15
+Kruskal-Wallis: H = 14.4445, p = 0.000730156 (significativo)
+Tukey HSD:
+ Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+=====================================================
+group1 group2 meandiff p-adj   lower    upper  reject
+-----------------------------------------------------
+  alto   bajo -10.0672 0.0002 -15.4017 -4.7327   True
+  alto  medio  -2.1394 0.5867  -7.4739  3.1951  False
+  bajo  medio   7.9278 0.0028   2.5933 13.2623   True
+-----------------------------------------------------
