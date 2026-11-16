@@ -42,7 +42,7 @@ El valor `r ~ Uniforme(0,1)` se genera **una sola vez** al inicio con la
 matrícula como semilla:
 
 ```python
-SEMILLA_MATRICULA = 2_087_472
+SEMILLA_MATRICULA = 2087472
 r = random.Random(SEMILLA_MATRICULA).random()   # r = 0.6643924310
 ```
 
@@ -85,9 +85,3 @@ Opciones adicionales: `--replicas N`, `--pasos N` y `--bootstrap N`.
 
 El reporte completo, con la tabla resumen, las gráficas y el análisis, está en
 [`docs/reporte_tarea3.pdf`](docs/reporte_tarea3.pdf).
-
-**Repositorio:** `PENDIENTE: agregar aquí la URL pública del repositorio.`
-
-## Autor
-
-Sebastián Calderón — Análisis y Optimización de Algoritmos, 5.º semestre.
